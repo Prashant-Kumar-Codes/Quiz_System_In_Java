@@ -1,0 +1,8 @@
+# Copy this file to config.properties and edit the values for your machine.
+database.url=jdbc:mysql://localhost:3306/quiz_system?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+database.user=root
+database.password=CHANGE_ME
+
+# Open Trivia DB does not require an API key. This placeholder is available for another provider.
+api.key=YOUR_API_KEY_HERE
+api.url=https://opentdb.com/api.php?amount=10&category=9&type=multiple
